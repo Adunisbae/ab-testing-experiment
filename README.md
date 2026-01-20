@@ -21,5 +21,11 @@ The plots in the `figures/` folder show:
 - Bootstrap distribution of conversion rate difference
 - Time-to-conversion comparison
 
+## Summary Metrics
+
+The table below summarizes key experiment metrics across control and treatment groups, including sample size, conversion rate, retention, and average sessions.
+
+See `figures/summary_metrics_table.png`.
+
 ## Conclusion
 The treatment outperformed the control with statistically significant uplift. A staged rollout is recommended while monitoring retention.
