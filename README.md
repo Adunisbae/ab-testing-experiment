@@ -1,29 +1,25 @@
-# A/B Testing Experiment: User Engagement Uplift
+# A/B Testing Experiment: Conversion Rate Uplift
 
 ## Objective
-Evaluate whether a new product experience (treatment) increases user engagement compared to the existing experience (control).
+Evaluate whether a new product experience (treatment) increases conversion rate compared to the existing experience (control).
 
 ## Experiment Design
-- Randomized A/B test with 50/50 split
-- ~20,000 simulated users
+- Randomized A/B test (50/50 split)
+- ~20,000 users
 - Primary metric: Conversion rate
 - Secondary metrics: Time to convert, 7-day retention
 
-## Key Results
-- Treatment conversion rate exceeded control by ~2.4%
-- Bootstrap 95% confidence interval excluded zero
-- Results indicate statistically significant uplift
+## Results
+- Treatment conversion rate ≈ 10%
+- Control conversion rate ≈ 7.6%
+- Absolute uplift ≈ +2.4%
+- Bootstrap 95% confidence interval excludes zero
 
-## Visual Evidence
-The figures below were generated from the experiment:
+## Evidence
+The plots in the `figures/` folder show:
 - Conversion rate comparison with confidence intervals
 - Bootstrap distribution of conversion rate difference
 - Time-to-conversion comparison
 
-(See `figures/` folder.)
-
-## Recommendation
-Proceed with a staged rollout of the treatment while monitoring long-term retention and downstream engagement metrics.
-
-## Tech Stack
-Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter
+## Conclusion
+The treatment outperformed the control with statistically significant uplift. A staged rollout is recommended while monitoring retention.
